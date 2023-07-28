@@ -12,9 +12,13 @@ for (let i = 0; i < 364; i++) {
 
 $(".container span").hover(
   function () {
-    $(this)[0].innerText = "1";
+    const myTimeout = setTimeout(() => {
+      $(this)[0].innerText = "1";
+    }, 400);
   },
   function () {
-    $(this)[0].innerText = "0";
+    const myTimeout = setTimeout(() => {
+      $(this)[0].innerText = "0";
+    }, 400);
   }
 );

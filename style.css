@@ -30,7 +30,7 @@ body {
   height: 18px;
   margin: 8px 4.2px;
   cursor: pointer;
-  transition: 0.75s all ease-in-out;
+  transition: 0.4s all ease-in-out;
 }
 .wrap span:hover {
   color: white;
